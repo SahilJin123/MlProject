@@ -1,18 +1,16 @@
-### End to End Ml Project
+# End to End Ml Project
 
 ## Commands To Run the Project
-# Create virtual Env 
+### Create virtual Env 
 1. Open Anaconda prompt 
 2. Make the folder MLProject
 3. Run command conda create -p venv python==3.8 -y
 
-# Activate Virtual ENV
+### Activate Virtual ENV
 1. conda activate venv/
 
-# Install all the requirements 
+### Install all the requirements 
 1. pip install -r requirements.txt
-
-
 
 ######
 ## Tutorial 1
@@ -22,9 +20,11 @@ The setup script is the centre of all activity in building, distributing, and in
 
 setup.py is a Python script used for packaging and distributing Python modules or packages. The setup.py file contains various metadata about the package, such as the package name, version, author, description, dependencies, and other details required for the package installation and distribution.
 
-#####
+#
 
 The find_packages() function is a utility function from the setuptools module that recursively searches for all Python packages in the current directory and its subdirectories and returns a list of their names as strings. This function helps to automate the process of including all the packages in the package distribution without explicitly listing them in the setup.py file.
+
+
 
 For example, if your package has the following directory structure:
 
@@ -46,5 +46,5 @@ Then, the find_packages() function will return the following list:
 
 This list will be used by the packages argument to include all the packages in the package distribution.
 
-######
+#
 -e . :- This automatically triggers setip.py to build the packages.
