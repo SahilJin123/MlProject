@@ -9,7 +9,7 @@ def get_requirements(file_path:str)->List[str]:
     requirements=[]
     with open(file_path) as file_obj:
         requirements=file_obj.readlines()
-        # Whenever the above will read the lines \n is automaticall added so we need to remove it 
+        ### Whenever the above will read the lines \n is automaticall added so we need to remove it 
         requirements=[req.replace("\n","") for req in requirements]
 
         if Hyphen_E_Dot in requirements:
@@ -26,3 +26,5 @@ setup(
     install_requires=get_requirements('requirements.txt')
 
 )
+
+

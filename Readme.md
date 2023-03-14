@@ -30,16 +30,16 @@ The find_packages() function is a utility function from the setuptools module th
 For example, if your package has the following directory structure:
 
 
-my_package/
-├── __init__.py
-├── module1.py
-├── module2.py
-├── subpackage/
-│   ├── __init__.py
-│   └── submodule.py
-└── tests/
-    ├── __init__.py
-    └── test_module1.py
+### my_package/
+### ├── __init__.py
+### ├── module1.py
+### ├── module2.py
+### ├── subpackage/
+### │   ├── __init__.py
+### │   └── submodule.py
+### └── tests/
+###     ├── __init__.py
+###     └── test_module1.py
 
 Then, the find_packages() function will return the following list:
 
